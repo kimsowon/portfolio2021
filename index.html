@@ -43,6 +43,8 @@
 
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!--modal-->
+    <link rel="stylesheet" href="assets/css/modal/animate.min.css">
 
 
 </head>
@@ -424,7 +426,7 @@
                                             <p class="text-white">[반응형] 파란나무새</p>
                                             <a href="https://kimsowon.github.io/project3/" class="btn btn-primary" target="_blank">사이트</a>
                                             <a href="paran_concept.html" class="btn btn-primary" target="_blank">콘셉트</a>
-                                            <a id="demo01_3" class="btn btn-primary" href="#paranBXModal">BX</a>
+                                            <a href="paran_bx.html" class="btn btn-primary" target="_blank">BX</a>
 
                                         </div>
                                     </div><!-- End off grid Hover area -->
@@ -650,7 +652,34 @@
                 </div>
             </div>
         </footer>
+        <!--랜딩페이지-->
+        <div id="landingPageModal">
+            <div class="close-landingPageModal">
+                <img src="assets/images/close.png">
+            </div>
+            <div class="modal-content">
+                <img src="assets/images/port/others/3.jpg">
+            </div>
+        </div>
+        <!--쇼핑몰상세-->
+        <div id="shopDetailModal">
+            <div class="close-shopDetailModal">
+                <img src="assets/images/close.png">
+            </div>
+            <div class="modal-content">
+                <img src="assets/images/port/others/5.jpg">
+            </div>
+        </div>
 
+        <!--카드뉴스-->
+        <div id="cardNewsModal">
+            <div class="close-cardNewsModal">
+                <img src="assets/images/close.png">
+            </div>
+            <div class="modal-content">
+                <img src="assets/images/port/others/2.jpg">
+            </div>
+        </div>
     </div>
 
     <!-- JS includes -->
@@ -665,7 +694,14 @@
 
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+    <!--modal-->
+    <script src="assets/js/modal/animatedModal.min.js"></script>
+    <script>
 
+        $("#demo01_4").animatedModal();
+        $("#demo01_5").animatedModal();
+        $("#demo01_6").animatedModal();
+    </script>
    
     <script>
         $(function() {
