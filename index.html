@@ -48,10 +48,7 @@
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
-    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
-    <script src="assets/js/common.js"></script>
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
@@ -662,31 +659,97 @@
 
 
 
-      
+        <!--일주학술문화재단 설계-->
+        <div id="iljuModal">
+            <div class="close-iljuModal">
+                <img src="assets/images/close.png">
+            </div>
+            <div class="modal-content">
+                <iframe src="ilju_bx.pdf" style="width: 100%; height: 100%;"></iframe>
+            </div>
+        </div>
+
+
+
+        <!--파란나무새 콘셉트-->
+        <div id="paranConceptModal">
+            <div class="close-paranConceptModal">
+                <img src="assets/images/close.png">
+            </div>
+            <div class="modal-content">
+                <img src="assets/images/port/web/paran.jpg">
+            </div>
+        </div>
+
+
+        <!--파란나무새 BX-->
+        <div id="paranBXModal">
+            <div class="close-paranBXModal">
+                <img src="assets/images/close.png">
+            </div>
+            <div class="modal-content">
+                <img src="assets/images/port/web/paran_bx.jpg">
+            </div>
+        </div>
+
+
+        <!--랜딩페이지-->
+        <div id="landingPageModal">
+            <div class="close-landingPageModal">
+                <img src="assets/images/close.png">
+            </div>
+            <div class="modal-content">
+                <img src="assets/images/port/others/3.jpg">
+            </div>
+        </div>
+        <!--쇼핑몰상세-->
+        <div id="shopDetailModal">
+            <div class="close-shopDetailModal">
+                <img src="assets/images/close.png">
+            </div>
+            <div class="modal-content">
+                <img src="assets/images/port/others/5.jpg">
+            </div>
+        </div>
+
+        <!--카드뉴스-->
+        <div id="cardNewsModal">
+            <div class="close-cardNewsModal">
+                <img src="assets/images/close.png">
+            </div>
+            <div class="modal-content">
+                <img src="assets/images/port/others/2.jpg">
+            </div>
+        </div>
+
+
+
     </div>
 
     <!-- JS includes -->
 
     <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
 
     <script src="assets/js/jquery.magnific-popup.js"></script>
-    <!--<script src="assets/js/jquery.easypiechart.min.js"></script>-->
-    <script src="assets/js/jquery.easing.1.3.js"></script>
-    <!--<script src="assets/js/slick.js"></script>-->
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/js.isotope.js"></script>
-    <script src="assets/js/jquery.collapse.js"></script>
     <script src="assets/js/bootsnav.js"></script>
 
-    <script src="assets/js/masonry.pkgd.min.js"></script>
 
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 
     <!--modal-->
     <script src="assets/js/modal/animatedModal.min.js"></script>
-
+    <script>
+        $("#demo01_1").animatedModal();
+        $("#demo01_2").animatedModal();
+        $("#demo01_3").animatedModal();
+        $("#demo01_4").animatedModal();
+        $("#demo01_5").animatedModal();
+        $("#demo01_6").animatedModal();
+    </script>
     <script>
         $(function() {
             $(window).scroll(function() {
