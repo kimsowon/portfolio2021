@@ -1,0 +1,258 @@
+/*
+Author: Bootstrapthemes
+Author URI: http://www.xpeedstudio.com
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+
+
+    .skicker_1 {
+
+        background-size: 75%;
+        left: 150px;
+        bottom: -510px;
+    }
+
+    .skicker_2 {
+        background-size: 70%;
+        right: 175px;
+        bottom: -510px;
+    }
+
+    .sticker_3 {
+        right: 50px;
+    }
+
+    .grid_margin {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    
+    nav li:last-child img{
+        top: 15px;
+    }
+    
+    .navbar-right{
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+/* Portrait tablets and small desktops */
+/*@media (max-width: 992px) {
+
+}*/
+
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    .main_test {
+        margin: -30px auto 0;
+
+    }
+
+    .sm-text-center {
+        text-align: center !important;
+    }
+
+    .sm-pull-none {
+        float: none !important;
+    }
+
+    .sm-m-top-10 {
+        margin-top: 10px;
+    }
+
+    .sm-m-top-20 {
+        margin-top: 20px;
+    }
+
+    .sm-m-top-30 {
+        margin-top: 30px;
+    }
+
+    .sm-m-top-40 {
+        margin-top: 40px;
+    }
+
+    .sm-m-top-50 {
+        margin-top: 50px;
+    }
+
+    .item_img i {
+        right: 0%;
+    }
+
+    .divider_horizontal,
+    .divider_vertical {
+        display: none;
+    }
+
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 350px;
+        overflow: hidden;
+    }
+
+    .skicker_1 {
+
+        background-size: 65%;
+        left: 70px;
+        bottom: -510px;
+    }
+
+    .skicker_2 {
+        background-size: 65%;
+        right: 75px;
+        bottom: -510px;
+    }
+
+    .sticker_3 {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+        bottom: -410px;
+        width: calc(343px * 0.55);
+        height: calc(448px * 0.55);
+
+
+    }
+
+    .navbar-brand {
+        padding: 15px 0px 0px;
+    }
+}
+
+
+
+
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 90%;
+        line-height: 2rem;
+    }
+
+    .xs-pull-none {
+        float: none !important;
+    }
+
+    .xs-text-center {
+        text-align: center !important;
+    }
+
+    .xs-m-top-10 {
+        margin-top: 10px;
+    }
+
+    .xs-m-top-30 {
+        margin-top: 30px;
+    }
+
+    .xs-m-bottom-10 {
+        margin-bottom: 10px;
+    }
+
+    .xs-m-bottom-20 {
+        margin-bottom: 20px;
+    }
+
+    .main_product .carousel-control {
+        display: none;
+    }
+
+    .skicker_1 {
+
+        background-size: 45%;
+        left: 70px;
+        bottom: -600px;
+    }
+
+    .skicker_2 {
+        background-size: 45%;
+        right: -30px;
+        bottom: -600px;
+    }
+
+
+
+}
+
+
+/* Landscape phones and smaller */
+@media (max-width: 1199px) {
+    .teamskillbar > label > span:nth-child(2) {
+        display: none;
+    }
+
+}
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+    html {
+        font-size: 85%;
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 400px) {}
+
+
+@media (max-width: 360px) {
+    .skicker_1 {
+
+        display: none;
+    }
+
+    .skicker_2 {
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 320px) {
+    html {
+        font-size: 60.5%;
+    }
+
+
+}
+
+
+@media (max-width: 300px) {}
