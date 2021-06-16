@@ -299,10 +299,10 @@
 
                         <div class="col-md-8">
                             <div class="filters-button-group text-right sm-text-center">
-                                <button class="btn button  is-checked" data-filter="*">ALL</button>
-                                <button class="btn button" data-filter=".metal">WEB</button>
+                                <button id="my-btn" class="btn button" data-filter=".metal">WEB</button>
                                 <button class="btn button" data-filter=".alkali">BRANDING</button>
                                 <button class="btn button" data-filter=".ar">OTHERS</button>
+                                <button class="btn button  is-checked" data-filter="*">ALL</button>
                             </div>
                         </div>
 
@@ -626,8 +626,12 @@
         });
 
     </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#my-btn").trigger('click');
+        });
 
-
+    </script>
 </body>
 
 </html>
