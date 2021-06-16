@@ -218,6 +218,9 @@ a {
     background-color: transparent;
 }
 
+
+
+
 *,
 *:before,
 *:after {
@@ -473,9 +476,19 @@ Button
     border-color: #a1d1d1;
 }
 
+.refresh {
+    border: none;
+    background-color: inherit !important;
+}
 
+.refresh img:hover {
+    filter: opacity(50%);
+    -webkit-transition: all 0.6s;
+}
 
-
+.refresh img {
+    margin-bottom: 10px;
+}
 
 /*
 socail icon
@@ -807,9 +820,10 @@ textarea::-ms-input-placeholder {
   overflow: hidden;
 }*/
 
-.about_what{
+.about_what {
     padding-top: 1.8rem !important;
 }
+
 .transform_scal_rotate:hover img {
     -webkit-transform: scale(1.1) rotate(4deg);
     transform: scale(1.1) rotate(4deg);
@@ -825,7 +839,7 @@ textarea::-ms-input-placeholder {
 }
 
 /*heading title all area*/
-.head_title {    
+.head_title {
 
     padding-bottom: 2.143rem;
     overflow: hidden;
@@ -1034,17 +1048,20 @@ Nav Menu style
 ==================*/
 
 
-.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
     margin-left: -30px;
 }
-.navbar-right{
+
+.navbar-right {
     margin-bottom: -4px;
 }
+
 .navbar-brand {
     padding-top: 25px;
 }
 
-nav.navbar.bootsnav{
+nav.navbar.bootsnav {
     border-bottom: none;
 }
 
@@ -1056,19 +1073,20 @@ nav.navbar.bootsnav.no-background.white ul.nav > li > a {
     color: #a1d1d1;
 }
 
-nav.navbar.bootsnav ul.nav > li > a{
+nav.navbar.bootsnav ul.nav > li > a {
     color: #a1d1d1;
 }
+
 nav.navbar.bootsnav.no-background.white ul.nav > li.active > a {
     color: #16293b;
 }
 
-nav li:last-child img{
+nav li:last-child img {
     position: absolute;
     top: 26px;
 }
 
-nav li:last-child a{
+nav li:last-child a {
     display: none;
 }
 
@@ -1085,9 +1103,9 @@ Home Section style
     width: 100%;
 }
 
-.grid text-center{
+.grid text-center {
     left: 0;
-    right:0;
+    right: 0;
     margin: 0 auto;
 }
 
@@ -1114,6 +1132,7 @@ Home Section style
     left: 125px;
     bottom: -540px;
 }
+
 .skicker_2 {
     background-image: url(../../assets/images/sticker_2.png);
     width: 202px;
@@ -1125,16 +1144,16 @@ Home Section style
     bottom: -540px;
 }
 
-.sticker_3{
-     background-image: url(../../assets/images/sticker_3.png);
+.sticker_3 {
+    background-image: url(../../assets/images/sticker_3.png);
     width: calc(343px * 0.77);
     height: calc(448px * 0.77);
     background-repeat: no-repeat;
     position: absolute;
     background-size: 100%;
-    right:120px;
+    right: 120px;
     bottom: -440px;
-    
+
 }
 
 
@@ -1299,6 +1318,7 @@ Featured section style
     padding-top: 30px;
 
 }
+
 #MOVE_TOP_BTN {
     position: fixed;
     right: 2%;
@@ -1584,7 +1604,7 @@ tems Section style
     margin-top: -0px !important;
 }
 
-.col-md-12{
+.col-md-12 {
     margin-top: -30px;
 }
 
@@ -1741,7 +1761,8 @@ tems Section style
     position: relative;
     margin: 5px;
     width: 372px;
-    overflow: hidden;}
+    overflow: hidden;
+}
 
 /*.grid-item > * {
     margin: 0;
@@ -1791,7 +1812,7 @@ tems Section style
 .paranBXModal,
 .landingPageModal,
 .shopDetailModal,
-.cardNewsModal{
+.cardNewsModal {
     position: relative;
 }
 
@@ -1801,7 +1822,7 @@ tems Section style
 .close-paranBXModal,
 .close-landingPageModal,
 .close-shopDetailModal,
-.close-cardNewsModal{
+.close-cardNewsModal {
     text-align: right;
     padding: 20px 0;
     padding: absolute;
@@ -1820,7 +1841,7 @@ tems Section style
 .close-paranBXModal img,
 .close-landingPageModal img,
 .close-shopDetailModal img,
-.close-cardNewsModal img{
+.close-cardNewsModal img {
     width: 25px;
     height: 25px;
     vertical-align: text-top;
@@ -1833,7 +1854,8 @@ tems Section style
     border: none;
     box-shadow: none;
 }
-.modal-content img{
+
+.modal-content img {
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -1935,10 +1957,11 @@ tems Section style
 
 /*Footer section*/
 
-.footer_text{
+.footer_text {
     padding-top: 35px;
     color: white;
 }
+
 .divider {
     width: 100%;
     height: 1px;
@@ -2059,6 +2082,3 @@ tems Section style
 .widget_newsletter li a i {
     color: #aaa;
 }
-
-
-
